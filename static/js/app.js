@@ -71,7 +71,7 @@ function buildCharts(sample) {
       type: 'pie'
       }];
 
-    Plotly.Plot('pie', trace2);
+    Plotly.newPlot('pie', trace2);
 
   })
 
