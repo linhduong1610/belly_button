@@ -64,14 +64,14 @@ function buildCharts(sample) {
     var pielabels = data.otu_ids.slice(0,10);
     var piehover = data.otu_labels.slice(0,10);
 
-    var data = [{
+    var trace2 = [{
       values: pievalues,
       labels: pielabels,
       hovertext: piehover,
       type: 'pie'
       }];
 
-    Plotly.Plot('pie', data);
+    Plotly.Plot('pie', trace2);
 
   })
 
